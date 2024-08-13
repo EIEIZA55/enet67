@@ -21,7 +21,7 @@
     <?php
 
 
-        echo "<form> <a href='index1.php' style='float: right;'>กลับไปหน้าหลัก</a><table>
+        echo "<form> <a href='index.php' style='float: right;'>กลับไปหน้าหลัก</a><table>
         <tr>    
                 <td>ชื่อ :</td>
                 <td>$_SESSION[usename]</td>

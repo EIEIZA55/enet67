@@ -26,8 +26,9 @@ session_start();
         else 
         {
         echo "<span style='float:right';>ผู้ใช้งานระบบ:$_SESSION[usename] &nbsp;&nbsp; <a href='logout.php'>ออกจากระบบ</a></span>";
+        echo "<br><a href='newpost.php?'>สร้างกระทู้ใหม่</a></br>";
         }
-        echo "<br><a href='newpost.php?'>สร้างกระทู้ใหม่</a></br>"; 
+         
 
     ?>
 </form>
